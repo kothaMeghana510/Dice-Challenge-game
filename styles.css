@@ -243,6 +243,10 @@ button:active{
         bottom: unset;
     }
 
+    .player-1, .player-2{
+        width: 50vw;
+    }
+
     .game{
         width: 90vw;
         height: auto;
