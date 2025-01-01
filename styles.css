@@ -220,9 +220,7 @@ button:active{
     justify-content: center;
     align-items: center;
 }
-/*
 @media (max-width: 768px){
-    /*
     html, body{
         width: 90vw;
         height: auto;
@@ -240,7 +238,7 @@ button:active{
 
 
     .buttons{
-        /*position: absolute;
+        position: absolute;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -250,8 +248,6 @@ button:active{
         bottom: unset;
     }
 
-*/
-/*
     .game{
         width: 90vw;
         height: auto;
@@ -314,44 +310,12 @@ button:active{
     }
 
     button {
-       /* width: auto; /* Allow buttons to resize dynamically 
+       width: auto; /* Allow buttons to resize dynamically */
         padding: 5px;
         padding: 10px 15px;
         font-size: 14px;
     }
 
-}*/
-
-
-@media (max-width : 768px){
-    *{
-        box-sizing: border-box;
-    }
-    .game{
-        position: relative;
-        width: 100%;
-        height: auto;
-    }
-    .rules-popup{
-       width: 85vw;
-       height: auto;
-       overflow-x: hidden;
-       overflow-y: auto;
-    }
-
-    .rules-popup::-webkit-scrollbar{
-        width: 6px;
-    }
-
-    .rules-popup::-webkit-scrollbar-thumb{
-        background-color: rgba(0, 0, 0, 0.3);
-        border-radius: 4px;
-    }
-
-    .rules-popup::-webkit-scrollbar-track{
-        background-color: rgba(0, 0, 0, 0.1);
-    }
-    .win{
-        height: 100%;
-    }
 }
+
+
