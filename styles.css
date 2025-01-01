@@ -221,11 +221,6 @@ button:active{
     align-items: center;
 }
 @media (max-width: 768px){
-    html, body{
-        width: 90vw;
-        height: auto;
-    }
-
     .game .rules-popup{
         position: absolute;
         width: 100vw;
