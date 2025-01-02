@@ -123,7 +123,7 @@ holdCurrentScore.addEventListener('click', function(){
             document.querySelector(`.player-${activePlayer}`).classList.remove('player--active');
             win.classList.remove('hidden');
             overlay.classList.remove('hidden');
-            winningPopup.textContent = `player-${activePlayer} win the match`;
+            winningPopup.textContent = `player-${activePlayer} wins the match!!`;
 
         }else{
             //switch to next player
