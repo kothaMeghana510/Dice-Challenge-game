@@ -114,7 +114,7 @@ holdCurrentScore.addEventListener('click', function(){
 
         //check if score >= 100
         // if yes finish the game
-        if(scores[activePlayer - 1] >= 20){
+        if(scores[activePlayer - 1] >= 50){
             // finish game
             playing = false;
             winningAudio.play();
