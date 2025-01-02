@@ -317,6 +317,10 @@ button:active{
         width: 5rem; 
     }
 
+    #heading{
+        font-size: 1.8em;
+    }
+
     button {
        width: auto; 
         padding: 5px;
