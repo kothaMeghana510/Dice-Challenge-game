@@ -301,7 +301,7 @@ button:active{
 
 @media (max-width: 480px) {
     body {
-        font-size: 0.9em; /* Smaller font size for ultra-small screens */
+        font-size: 0.75em; /* Smaller font size for ultra-small screens */
     }
 
     .box {
@@ -312,9 +312,24 @@ button:active{
        width: auto; /* Allow buttons to resize dynamically */
         padding: 5px;
         padding: 10px 15px;
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .player-1, .player-2{
+        width: 19.9vw;
+    }
+
+    .buttons{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dice{
+        bottom: 23rem;
     }
 
 }
+
 
 
