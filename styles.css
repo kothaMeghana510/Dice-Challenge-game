@@ -220,6 +220,7 @@ button:active{
     justify-content: center;
     align-items: center;
 }
+
 @media (max-width: 768px){
     .game .rules-popup{
         position: absolute;
@@ -283,6 +284,10 @@ button:active{
         padding: 10px;
     }
 
+    .dice{
+        bottom: 50vh;
+    }
+
     .rules-popup::-webkit-scrollbar{
         width: 6px;
     }
@@ -295,21 +300,23 @@ button:active{
     .rules-popup::-webkit-scrollbar-track{
         background-color: rgba(0, 0, 0, 0.1);
     }
+
+    .win{
+        height: 60%;
+    }
 }
-
-
 
 @media (max-width: 480px) {
     body {
-        font-size: 0.75em; /* Smaller font size for ultra-small screens */
+        font-size: 0.75em; 
     }
 
     .box {
-        width: 5rem; /* Further reduce box size */
+        width: 5rem; 
     }
 
     button {
-       width: auto; /* Allow buttons to resize dynamically */
+       width: auto; 
         padding: 5px;
         padding: 10px 15px;
         font-size: 12px;
@@ -326,10 +333,18 @@ button:active{
     }
 
     .dice{
-        bottom: 23rem;
+       bottom: 50vh;
     }
 
+    .win{
+        height: 50%;
+    }
+
+    .rules-popup{
+        height: 50%;
+    }
 }
+
 
 
 
